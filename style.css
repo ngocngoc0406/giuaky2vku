@@ -1,0 +1,137 @@
+#menu ul{
+    display: flex;
+    max-width: 800px;
+    height: 30px;
+    padding: 0;
+    margin: 0px;
+    text-align: center;
+    justify-content: flex-start;
+}
+#menu li{
+    list-style: none;
+    padding-top: 4px;
+    margin: 0px;
+    flex-grow: 1;
+    border-left: 3px solid rgb(212, 205, 205);
+    text-align: center;
+    background-color: rgb(109, 106, 106);
+    
+}
+#menu{
+    padding-top: 20px;
+    width: 98%;
+    background-color: rgb(109, 106, 106);
+    margin: 0 auto;
+}
+#menu a{
+    text-decoration: none;
+    font-family: Calibri;
+    color: white;
+}
+#baner{
+    width: 1500px;
+    height: 320px;
+    background-color: rgb(109, 106, 106);
+}
+#baner img{
+    width: 98%;
+    padding-left: 15px;
+    height: 250px;
+}
+#main{
+    display: flex;
+    height: 1020px;
+}
+#main #left{
+    width: 1000px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+    font-family: Calibri;
+}
+#main #left img{
+    width: 850px;
+    height: 400px;
+}
+ #tieudenho{
+   font-size: 20px;
+   color:yellow;
+}
+ #tieudelon{
+    padding-top: 15px;
+    font-size: 35px;
+    color:white;
+ }
+ #main #right{
+    width: 500px;
+    font-size: 30px;
+    color:yellow;
+    font-family: Calibri;
+    background-color: rgb(74, 72, 72);
+    display: flex;
+    flex-direction: column;
+    height: 1020px;
+
+ }
+
+ #main #right ul{
+   
+  
+    margin-top: 0px;
+   background-color: rgb(5, 28, 28);
+ }
+ #main #right li{
+    margin-left: -40px;
+    list-style: none;
+    text-align: center;
+   height:170px;
+    line-height: 120px;
+    background-color:rgb(55, 54, 54);
+  }
+  #footer{
+    width: 1500px;
+    height: 40px;
+    background-color: rgb(157, 154, 154);
+  }
+  #footer #dongcuoi{
+    padding: 10px;
+    font-family: Calibri;
+    font-size: 17px;
+    color:white;
+  }
+  #main #left form{
+    margin: 100px auto;
+    border-radius: 10px;
+    width: 800px;
+    height: 700px;
+    background-color: white;
+  }
+  #main #left #lienhe{
+    font-weight: 800;
+    font-size: 40px;
+    color:red;
+    padding-top: 30px;
+  }
+  #main #left input{
+    text-indent: 20px;
+    font-size: 20px;
+   width: 700px;
+   height: 50px;
+   border-radius: 5px;
+   border: 1px solid rgb(176, 171, 171);
+  }
+  #main #left p{
+    font-size: 17px;
+   color:red;
+  }
+  #main #left button{
+    border: 0px;
+    border-radius: 7px;
+    font-size: 20px;
+    margin: 40px;
+    width: 100px;
+    height: 50px;
+    color: rgb(234, 255, 0);
+    background-color: rgb(47, 255, 54);
+   }
